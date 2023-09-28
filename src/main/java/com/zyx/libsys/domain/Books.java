@@ -6,7 +6,7 @@ public class Books {
     private Integer book_id;
     private String title;
     private String author;
-    private Date publication_date;
+    private String publication_date;
     private String isbn;
     private Integer category_id;
     private Integer publisher_id;
@@ -48,11 +48,11 @@ public class Books {
         this.author = author;
     }
 
-    public Date getPublication_date() {
+    public String getPublication_date() {
         return publication_date;
     }
 
-    public void setPublication_date(Date publication_date) {
+    public void setPublication_date(String publication_date) {
         this.publication_date = publication_date;
     }
 
